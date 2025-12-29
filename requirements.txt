@@ -1,0 +1,43 @@
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+
+# Data Processing
+pandas>=2.0.0
+scikit-learn>=1.3.0
+scipy>=1.10.0
+
+# # Vietnamese NLP (Optional but recommended)
+# pyvi>=0.1.1              # Vietnamese word segmentation
+# underthesea>=1.3.5       # Vietnamese NLP toolkit
+# vncore-nlp>=1.0.3        # Vietnamese CoreNLP
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Progress & Logging
+tqdm>=4.65.0
+tensorboard>=2.13.0
+wandb>=0.15.0            # Optional: for experiment tracking
+
+# Utilities
+pyyaml>=6.0
+jsonlines>=3.1.0
+click>=8.1.0             # For CLI
+
+# Jupyter
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+notebook>=7.0.0
+
+# Testing
+pytest>=7.3.0
+pytest-cov>=4.1.0
+
+# Code Quality
+black>=23.3.0
+flake8>=6.0.0
+mypy>=1.3.0
