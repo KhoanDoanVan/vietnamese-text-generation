@@ -1,0 +1,28 @@
+data:
+  path: data/raw/vietnamese_corpus.txt
+  vocab_level: word
+  vocab_size: 10000
+  min_freq: 2
+  seq_length: 50
+  stride: 25
+
+model:
+  embedding_dim: 128
+  hidden_dim: 256
+  num_layers: 2
+  dropout: 0.3
+  tie_weights: true
+
+training:
+  batch_size: 32
+  num_epochs: 20
+  learning_rate: 0.001
+  grad_clip: 5.0
+
+evaluation:
+  test_sequence_lengths: [10, 20, 30, 50, 100]
+  num_generation_samples: 5
+
+paths:
+  output_dirs: results
+  checkpoint_dir: checkpoints
