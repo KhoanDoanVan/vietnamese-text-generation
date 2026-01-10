@@ -22,3 +22,7 @@ training:
 evaluation:
   test_sequence_lengths: [10, 20, 30, 50, 100]
   num_generation_samples: 5
+
+paths:
+  output_dirs: results
+  checkpoint_dir: checkpoints
